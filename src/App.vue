@@ -5,7 +5,7 @@
       <RouterView/>
     </v-main>
 </v-app>
-  <RouterView/>
+  
 </template>
 
 <script setup> 

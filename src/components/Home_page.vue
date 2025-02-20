@@ -1,13 +1,15 @@
 <template>
-<v-card class="mx-auto" elevation="24">
-
+    <v-container>
+   <v-card class="mx-auto" elevation="24">
+    
 <v-carousel hide-delimiters>
-    <v-carousel-item src="../public/farhad-ibrahimzade-LJ49dflDcH8-unsplash.jpg" cover> </v-carousel-item>
-    <v-carousel-item src="https://images.unsplash.com/photo-1555126634-323283e090fa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8U3RlYWslMjBtZWFsfGVufDB8fDB8fHww" cover> </v-carousel-item>
-    <v-carousel-item src="https://images.unsplash.com/photo-1580959375944-abd7e991f971?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFN0ZWFrJTIwbWVhbHxlbnwwfHwwfHx8MA%3D%3D" cover> </v-carousel-item>
-    <v-carousel-item src="https://images.unsplash.com/photo-1615917124838-1af8a2aaae09?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE1lYWxzfGVufDB8fDB8fHww" cover> </v-carousel-item>
+    <v-carousel-item  src="/ben-kim-JjzjBLmANVA-unsplash.jpg" cover> </v-carousel-item>
+    <v-carousel-item  src="/farhad-ibrahimzade-LJ49dflDcH8-unsplash.jpg" cover> </v-carousel-item>
+    <v-carousel-item src="/jennifer-burk-gwBcamFtPr4-unsplash.jpg" cover> </v-carousel-item>
+    <v-carousel-item src="/mae-mu-H5Hj8QV2Tx4-unsplash.jpg" cover> </v-carousel-item> 
 </v-carousel>
 </v-card>
+</v-container>
 <v-container>
         <v-card class="mx-auto" elevation="24">
             <v-container>
@@ -44,7 +46,7 @@
 
                 <v-col cols="12" md="4">
                     <v-card>
-                    <v-card color="#D6292A">
+                    <v-card color="#C1483E">
                     <v-card-item>
                     <v-card-title>Upcoming Events</v-card-title>
 
@@ -56,13 +58,13 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus!
                     </v-card-text>
                     </v-card>
-                    <v-card color="yellow">
+                    <v-card color="#BD8242">
                     <v-card-item>
                     <v-card-title>Upcoming Events</v-card-title>
 
-                    <v-card-subtitle>This is a card subtitle</v-card-subtitle>
+                    <v-card-subtitle>Special guest</v-card-subtitle>
                     </v-card-item>
-                    <v-img height="200px" src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg" cover ></v-img>
+                    <v-img height="200px" src="https://images.unsplash.com/flagged/photo-1557286249-08f5bc2ef21d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VHJhdmlzJTIwc2NvdHR8ZW58MHx8MHx8fDA%3D" cover ></v-img>
 
                     <v-card-text>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus!
@@ -86,13 +88,13 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus!
                     </v-card-text>
                         </v-card>
-                        <v-card color="yellow">
+                        <v-card color="#C1873E">
                     <v-card-item>
                     <v-card-title>Promotions</v-card-title>
 
-                    <v-card-subtitle>This is a card subtitle</v-card-subtitle>
+                    <v-card-subtitle>Bussin Saturdays</v-card-subtitle>
                     </v-card-item>
-                    <v-img height="200px" src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg" cover ></v-img>
+                    <v-img height="200px" src="https://images.unsplash.com/photo-1630175914039-69ffca8a0604?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWVhbCUyMHBsYXR0ZXJzfGVufDB8fDB8fHww" cover ></v-img>
 
                     <v-card-text>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus!
